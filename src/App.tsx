@@ -44,6 +44,7 @@ const Panel = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
+  background-color: ${props => props.theme == darkTheme ? "#4c4c6e" : "#c6edf8"};
 
   @media screen and (max-width: 800px) {
     width: 250px;
@@ -86,6 +87,10 @@ const Temperature = styled.div`
   justify-content: center;
   padding: 2%;
   font-weight: bold;
+
+  @media screen and (max-width : 800px) {
+    font-size: 1.2rem;
+  }
 `;
 
 const WeatherContainer = styled.div`
@@ -110,6 +115,10 @@ const Details = styled.div`
   border-radius: 5px;
   padding: 3%;
   width: 25%;
+
+  @media screen and (max-width: 1200px) {
+    width: 120px;
+  }
 `;
 
 const Element = styled.div`

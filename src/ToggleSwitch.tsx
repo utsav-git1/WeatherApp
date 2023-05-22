@@ -45,7 +45,7 @@ const Input = styled.input`
   width: 0;
 
   &:checked + ${Span} {
-    background-color: green;
+    background-color: #80cdf1;
 
     &:before {
       transform: translate(27px);
