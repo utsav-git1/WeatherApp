@@ -12,7 +12,7 @@ import ToggleSwitch from "./ToggleSwitch";
 
 const api = {
   key: import.meta.env.VITE_REACT_WEATHER_KEY,
-  baseUrl: "http://api.openweathermap.org/data/2.5/",
+  baseUrl: "https://api.openweathermap.org/data/2.5/",
 };
 
 const Container = styled.div`
