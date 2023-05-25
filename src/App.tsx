@@ -90,6 +90,7 @@ const Temperature = styled.div`
 
   @media screen and (max-width : 800px) {
     font-size: 1.2rem;
+    width: 65px;
   }
 `;
 
@@ -103,6 +104,10 @@ const WeatherContainer = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
+
+  @media screen and (max-width : 800px) {
+    width: 90px;
+  }
 `;
 
 const Details = styled.div`
@@ -133,6 +138,10 @@ const Button = styled.button`
   margin: 5%;
   border-radius: 5px;
   cursor: pointer;
+
+  @media screen and (max-width: 800px) {
+    width: 120px;
+  }
 `;
 
 const Mode = styled.div`

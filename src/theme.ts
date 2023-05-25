@@ -1,7 +1,7 @@
 import { createGlobalStyle } from 'styled-components'
 
 export const lightTheme = {
-    backgroundColor: '#e6faff',
+    backgroundColor: '#e6e6e6',
     fontColor: 'black'
 }
 
